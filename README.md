@@ -1,6 +1,6 @@
 This is a cookie cutter for Falcon with Falcon-Auth using JWT Authentication on Python 3.7 (rc-stretch).
 
-.env needs to have a secret key, any string, populated in it.
+`.env` needs to have a secret key, any string, populated in it. It is included here, but is in the .gitignore file, anyone using this should be sure not to commit the file.
 
 Requirements are pipenv, Docker, Docker-Compose, and an environment that can run make and bash.
 
