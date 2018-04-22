@@ -11,3 +11,5 @@ To try it out, run
     make build; make run
     curl localhost:5000 token
     curl -H "authorization: jwt yourtokenfromthelaststephere" localhost:5000
+
+The example code with the two API classes isn't ideal, but serves as example for dealing with the JWT.
