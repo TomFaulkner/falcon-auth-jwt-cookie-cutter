@@ -2,15 +2,18 @@ This is a cookie cutter for Falcon with Falcon-Auth using JWT Authentication on 
 
 `.env` needs to have a secret key, which can be any string. It is included here, but is in the .gitignore file, anyone using this should __be sure not to commit the file.__
 
-##Requirements
+Requirements
+============
 
 pipenv, Docker 2+, Docker-Compose
 
-###Nice to have
+Nice to have
+============
 
 Not absolutely required, but for ease of use: and an environment that can run `make` and `bash`.
 
-##Usage
+Usage
+=====
 
 To try it out, run
 
@@ -20,11 +23,13 @@ To try it out, run
     
 There are three Python scripts in `tools/scripts/jwt` to request a token, decode a token, and one that does both. To use the decoder, pipe the token to `decode.py`. (`echo $TOKEN | python3 decode.py`)
 
-##License
+License
+=======
 
 Do whatever you want with it.
 
-##Contributing
+Contributing
+============
 
 If I did something wrong or there is room for improvement please make an issue or a pull request.
 
