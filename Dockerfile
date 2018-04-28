@@ -2,7 +2,7 @@ FROM python:rc-stretch
 WORKDIR /usr/src/app
 
 COPY Pipfile* ./
-COPY ./backend/project .
+COPY ./project .
 RUN pip install pipenv
 RUN pipenv install --deploy
 
